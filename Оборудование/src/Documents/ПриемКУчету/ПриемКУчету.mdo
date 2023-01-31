@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87fae4aa-8b0f-4cc7-85bb-9538788a3001">
+  <producedTypes>
+    <objectType typeId="77bc52e4-280f-4e2b-808b-94e3fe0c7b3d" valueTypeId="fb1daffa-66a4-4ae5-aa05-d8e57c19a857"/>
+    <refType typeId="01abf656-1d72-4f37-a18d-db2d058f95ad" valueTypeId="35ea87eb-441d-4368-ba8e-e179263f843d"/>
+    <selectionType typeId="e412c9ef-a8e5-44e6-aab9-e22c697dc8a0" valueTypeId="b3dbc6a0-dcf6-4e8e-991a-1ae099d26568"/>
+    <listType typeId="da15f8ea-cbf9-4925-b40c-e6ae638068c3" valueTypeId="6edaa49b-ecce-433e-8ba5-90be507e36fd"/>
+    <managerType typeId="8a2f1204-62aa-41dc-b46d-1188f9ac4898" valueTypeId="f54e7c99-006d-494f-83ce-ec8652777b42"/>
+  </producedTypes>
+  <name>ПриемКУчету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием к учету</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемКУчету.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриемКУчету.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Остатки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="24bae64a-8ab9-4782-a596-165616f969b2">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="996c8039-4e3e-4a48-8a05-56c25e851fdd">
+    <producedTypes>
+      <objectType typeId="045718f8-7834-41ed-ae7c-8496ee8e34b4" valueTypeId="2a58010b-a932-41ea-a113-80088fd063f9"/>
+      <rowType typeId="ed4f11e9-f7be-4ada-8b0b-78c0c7c8072f" valueTypeId="be41b4d5-47bf-495f-8b5b-c8889194b4be"/>
+    </producedTypes>
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <attributes uuid="82e4caa0-f305-455e-ba18-cea34b8dde3b">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="108803bd-c5f2-4619-a00e-b9fbc6b946b4">
+      <name>Субъект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субъект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Субъекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c1dac02-a9db-4a0e-a155-c59491d711b0">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

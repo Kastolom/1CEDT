@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90140ce0-2651-48a3-be04-5d39e3526452">
+  <name>Оборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Оборудование</picture>
+  </picture>
+  <content>Report.Остатки</content>
+  <content>Catalog.Субъекты</content>
+  <content>Document.ПриемКУчету</content>
+  <content>Document.ДвижениеОборудования</content>
+  <content>Document.ВыбытиеОборудования</content>
+  <content>Document.ВозвратСРемонта</content>
+  <content>Document.ВозвратСЗаправки</content>
+  <content>AccumulationRegister.Остатки</content>
+  <content>AccumulationRegister.Расходы</content>
+  <content>Document.ПокупкаОборудования</content>
+  <content>Catalog.Номенклатура</content>
+  <content>CommonPicture.Оборудование</content>
+  <content>Report.Расходы</content>
+  <content>Enum.ВидНоменклатуры</content>
+  <content>a5361123-0b51-40ba-b5d2-cddd65612361</content>
+</mdclass:Subsystem>

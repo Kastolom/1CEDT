@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0b198b0-3c91-41a9-ae1f-585e5fc4cec4">
+  <producedTypes>
+    <refType typeId="05caca36-b5eb-49f0-9001-917f2226b93b" valueTypeId="1ff724d4-020e-4656-851c-8725703ba4a3"/>
+    <listType typeId="add9a0d6-a286-4e2c-8585-618d647ab912" valueTypeId="fdebffb2-9aa8-4af3-b11f-710bc812a1c9"/>
+    <managerType typeId="54a7dc67-61cc-49c7-9729-1d639ff8f39c" valueTypeId="b3c7826d-36df-4fc0-8e6a-5c448cafdd39"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41264751-3919-40c2-9531-58d1c9e5426b">
+    <name>Картридж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картридж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adccc507-2945-4f4e-b754-c4d9d16ceba3">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5ca549d-501a-4483-bf34-2b67c3bb95ce">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
