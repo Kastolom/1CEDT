@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="185ad30b-46f4-4f4c-9551-09427fc2e5a0">
+  <producedTypes>
+    <objectType typeId="25992b12-e071-42ea-8b29-9213d93eb547" valueTypeId="31202f40-ae42-4d6e-8631-a728b50c2ba6"/>
+    <refType typeId="8534ff74-92c2-4f7e-ab88-11c6ad40db16" valueTypeId="05cb8639-fa4f-448f-af32-531a7956fbab"/>
+    <selectionType typeId="9d6c4329-25a5-4b81-8c11-b922e0c715cd" valueTypeId="16bfaf6b-fc1b-43bd-9d3c-e38146f5674e"/>
+    <listType typeId="d072b772-7483-4d55-afb9-5767d5ac7b7b" valueTypeId="f4a9e100-c828-43cc-be08-ed9a947a1e6b"/>
+    <managerType typeId="3c6127f8-f220-4df4-be01-df8ba84b7eff" valueTypeId="785aae47-1f6c-4208-a006-beef97edfa33"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1580f7fa-8d83-451e-a7cf-8b54508d87a7">
+      <name>КондитерскийЦех</name>
+      <description>Кондитерский цех</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

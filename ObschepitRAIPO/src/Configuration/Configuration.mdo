@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5ffb4c8-5c27-4a8f-861c-eaad1bc7d79b">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f486b054-d995-4fe2-a356-d40d2eaca15c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c83dab0e-cfce-4c4d-b4c8-a7ef9ad5f61d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="08d1bf17-dbcd-4cc8-beab-0ba68ef1bc63"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b194243b-1430-40f5-bdd3-c8f374947497"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c105fa0c-d9f3-443e-837b-806cd70fdca7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3346f89d-1304-4c3c-81c8-c771307ca1cf"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a9c02e87-649b-4282-b0b1-80465b064834"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="4dc72416-4bc2-4834-b5f8-a6e9ef166e1d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Общепит</subsystems>
+  <commonModules>CommonModule.ОбщиеПроцедуры</commonModules>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Продукты</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.ГруппыИзделий</catalogs>
+  <catalogs>Catalog.НаценочныеКатегории</catalogs>
+  <documents>Document.ВнесениеИзменениеЦен</documents>
+  <documents>Document.ФормированиеНарядЗаказа</documents>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <informationRegisters>InformationRegister.ЦеныПродуктов</informationRegisters>
+</mdclass:Configuration>

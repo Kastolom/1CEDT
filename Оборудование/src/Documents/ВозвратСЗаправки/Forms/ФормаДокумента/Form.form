@@ -271,7 +271,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ОборудованиеЦенаКоличествоПриИзменении</name>
+        <name>ОборудованиеЦенаПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОборудованиеЦенаРасширеннаяПодсказка</name>
@@ -325,7 +325,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ОборудованиеЦенаКоличествоПриИзменении</name>
+        <name>ОборудованиеКоличествоПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ОборудованиеКоличествоРасширеннаяПодсказка</name>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bf04639-4dd7-4d14-87ea-f39b7ba98d7f">
+  <producedTypes>
+    <objectType typeId="67eccdcb-d399-49f5-aa3f-311b295d3f67" valueTypeId="a8a7fc64-b333-4f9a-981f-538047b25699"/>
+    <refType typeId="6d5ef593-7002-403c-8f16-78cc6cd02fb6" valueTypeId="9f492d86-ed39-41e4-a441-40e9e387f3a8"/>
+    <selectionType typeId="3d8eb5fe-06fa-4579-8173-763402585a9c" valueTypeId="b0170b65-d1ff-4eb8-aa42-93af939547c5"/>
+    <listType typeId="33d8094d-b923-4342-8fd2-4e6b7ce7f04f" valueTypeId="12afd8ce-20d2-4a87-9313-26c6731ff874"/>
+    <managerType typeId="631d10ec-11d8-4503-bb69-bf4069270944" valueTypeId="754de1fd-cc20-45d8-aca8-ceae3c3a91fa"/>
+  </producedTypes>
+  <name>ГруппыИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы изделий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыИзделий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыИзделий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb97ea0a-f948-48da-a7f1-5ca4c1d34bbc">
+  <producedTypes>
+    <objectType typeId="709539dd-31b3-40f9-883b-4dca11edc15b" valueTypeId="86f56440-db2e-4acc-aae8-9f8b3f352a3d"/>
+    <refType typeId="8092e1e4-6d7e-42a1-b8f2-53ef4723e214" valueTypeId="dcc0ea73-4991-4283-9e27-dcd9d8f44d59"/>
+    <selectionType typeId="d3259590-d103-4393-a7f9-18d5d9217f2b" valueTypeId="f985043e-3f0e-438c-a20d-d6a73e07a2db"/>
+    <listType typeId="1d86942f-a00a-43b3-8e2c-7ea53f09162c" valueTypeId="3c9ca943-ee05-4767-8158-efa9a03499be"/>
+    <managerType typeId="d86e09f1-1623-4e11-90fd-7afdf8a3008c" valueTypeId="e5b75a83-0466-4c8d-9c9c-ee24bcd72385"/>
+  </producedTypes>
+  <name>НаценочныеКатегории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наценочные категории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаценочныеКатегории.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаценочныеКатегории.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

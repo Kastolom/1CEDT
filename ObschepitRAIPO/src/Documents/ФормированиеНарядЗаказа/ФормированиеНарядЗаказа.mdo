@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4e63065-9c45-4f85-b331-79e2555e497c">
+  <producedTypes>
+    <objectType typeId="8392cd80-b6d5-4b4c-ae93-1cbab7e3a131" valueTypeId="bef946a6-3ff1-4811-9075-2266257ee50a"/>
+    <refType typeId="ae112d8a-7573-499f-81c7-32c16bccc598" valueTypeId="505b32e8-564f-4a83-b7c6-cc95ba54443b"/>
+    <selectionType typeId="76e85e53-ca77-47e1-8894-c247dc288b92" valueTypeId="99b2a876-dd76-484b-b393-ab13f50032f3"/>
+    <listType typeId="0dbfb4c9-66ec-450b-b158-333749ae9f29" valueTypeId="14e90421-918e-4054-8955-13a1708c6ee0"/>
+    <managerType typeId="9464f558-3ab0-4aa0-beb1-a8df7ee5e9b9" valueTypeId="7962aaa2-9a4f-4d16-b16c-846e81212738"/>
+  </producedTypes>
+  <name>ФормированиеНарядЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование наряд заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ФормированиеНарядЗаказа.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

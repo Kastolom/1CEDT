@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9270bd82-45bf-45e9-b860-d503c684bb54">
+  <producedTypes>
+    <objectType typeId="8c920a6f-146a-4605-b212-d4e62bea3ab4" valueTypeId="df159590-42b3-4344-a0d8-293cb757086c"/>
+    <refType typeId="6527950e-6a15-498e-ac9d-edc7c239bd3b" valueTypeId="ec9e4399-c2eb-4966-af1d-9599bc8fa3ad"/>
+    <selectionType typeId="ceb439d3-106b-456a-bc0d-66a6b70ec735" valueTypeId="cc4a5451-01a7-473c-ad1a-f24fef75b6ba"/>
+    <listType typeId="6c80b62e-e9ad-44e7-bf9e-d39c14935de6" valueTypeId="e40ad9c9-e7fc-40c0-a59d-33ed4db08f47"/>
+    <managerType typeId="edae0442-e3ef-4e3f-8059-4903bfed3739" valueTypeId="eda887c4-6fd1-4159-9764-8716766cf006"/>
+  </producedTypes>
+  <name>Продукты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Продукты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Продукты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Продукт</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Продукты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Продукты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d5cf8a54-2db2-40b7-a9a3-d8b9c35e96cf">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена за 1 кг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5fcc2600-4496-47e3-b61c-fea0e3226bcb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7f517c6-2bff-4880-9934-1ca41409607f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

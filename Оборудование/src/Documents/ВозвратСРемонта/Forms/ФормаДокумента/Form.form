@@ -321,7 +321,7 @@
       </dataPath>
       <handlers>
         <event>OnChange</event>
-        <name>ПереченьРемонтаЦенаПриИзмененииИлиОткрытии</name>
+        <name>ПереченьРемонтаЦенаПриИзменении</name>
       </handlers>
       <extendedTooltip>
         <name>ПереченьРемонтаЦенаРасширеннаяПодсказка</name>
@@ -552,7 +552,7 @@
   </autoCommandBar>
   <handlers>
     <event>OnOpen</event>
-    <name>ПереченьРемонтаЦенаПриИзмененииИлиОткрытии</name>
+    <name>ПриОткрытии</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

@@ -2,55 +2,13 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>Document.ПриемКУчету.StandardCommand.OpenList</command>
+      <command>Catalog.Номенклатура.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ПокупкаОборудования.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ДвижениеОборудования.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ВозвратСЗаправки.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ВозвратСРемонта.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ВыбытиеОборудования.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:a5361123-0b51-40ba-b5d2-cddd65612361</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Catalog.Субъекты.StandardCommand.OpenList</command>
+      <command>Catalog.Субъекты.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
@@ -70,28 +28,32 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
+      <group>CommandGroup.ГруппаКомандРегистры</group>
+      <commands>AccumulationRegister.Остатки.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Расходы.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
       <group>CommandGroup.ГруппаКомандДокументы</group>
-      <commands>Document.ПриемКУчету.StandardCommand.OpenList</commands>
-      <commands>Document.ПокупкаОборудования.StandardCommand.OpenList</commands>
-      <commands>Document.ДвижениеОборудования.StandardCommand.OpenList</commands>
       <commands>Document.ВозвратСЗаправки.StandardCommand.OpenList</commands>
       <commands>Document.ВозвратСРемонта.StandardCommand.OpenList</commands>
       <commands>Document.ВыбытиеОборудования.StandardCommand.OpenList</commands>
-      <commands>0:a5361123-0b51-40ba-b5d2-cddd65612361</commands>
+      <commands>Document.ПриемКУчету.StandardCommand.OpenList</commands>
+      <commands>Document.ПокупкаОборудования.StandardCommand.OpenList</commands>
+      <commands>Document.ДвижениеОборудования.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ГруппаКомандСправочники</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Субъекты.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>CommandGroup.ГруппаКомандРегистры</group>
-      <commands>AccumulationRegister.Остатки.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.Расходы.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
+      <group>CommandGroup.ГруппаКомандРегистры</group>
+      <commands>AccumulationRegister.Остатки.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Расходы.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
       <group>CommandGroup.ГруппаКомандДокументы</group>
       <commands>Document.ПриемКУчету.StandardCommand.OpenList</commands>
       <commands>Document.ПокупкаОборудования.StandardCommand.OpenList</commands>
@@ -99,17 +61,11 @@
       <commands>Document.ВозвратСЗаправки.StandardCommand.OpenList</commands>
       <commands>Document.ВозвратСРемонта.StandardCommand.OpenList</commands>
       <commands>Document.ВыбытиеОборудования.StandardCommand.OpenList</commands>
-      <commands>0:a5361123-0b51-40ba-b5d2-cddd65612361</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ГруппаКомандСправочники</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Субъекты.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>CommandGroup.ГруппаКомандРегистры</group>
-      <commands>AccumulationRegister.Остатки.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.Расходы.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
