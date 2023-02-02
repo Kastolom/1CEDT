@@ -39,8 +39,8 @@
   </languages>
   <subsystems>Subsystem.Оборудование</subsystems>
   <commonPictures>CommonPicture.Оборудование</commonPictures>
-  <roles>Role.ПолныеПрава</roles>
   <roles>Role.Пользователь</roles>
+  <roles>Role.ПолныеПрава</roles>
   <commandGroups>CommandGroup.ГруппаКомандДокументы</commandGroups>
   <commandGroups>CommandGroup.ГруппаКомандСправочники</commandGroups>
   <commandGroups>CommandGroup.ГруппаКомандРегистры</commandGroups>

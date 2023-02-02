@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7011fa0-b34d-4135-be35-313e58cd5e6e">
-  <name>ОбщиеПроцедуры</name>
+  <name>ОбщиеПроцедурыВызовСервера</name>
   <synonym>
     <key>ru</key>
     <value>Общие процедуры</value>

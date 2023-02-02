@@ -3,7 +3,7 @@
   <name>Оборудование</name>
   <synonym>
     <key>ru</key>
-    <value>Оборудование</value>
+    <value>Оборудование1</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>

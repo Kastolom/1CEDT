@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5ffb4c8-5c27-4a8f-861c-eaad1bc7d79b">
-  <name>Конфигурация</name>
+  <name>Общепит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общепит</value>
+  </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f486b054-d995-4fe2-a356-d40d2eaca15c"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c83dab0e-cfce-4c4d-b4c8-a7ef9ad5f61d"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="08d1bf17-dbcd-4cc8-beab-0ba68ef1bc63"/>
@@ -36,7 +40,12 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Общепит</subsystems>
-  <commonModules>CommonModule.ОбщиеПроцедуры</commonModules>
+  <commonPictures>CommonPicture.Общепит</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщиеПроцедурыВызовСервера</commonModules>
+  <commandGroups>CommandGroup.ГруппаКомандДокументы</commandGroups>
+  <commandGroups>CommandGroup.ГруппаКомандСправочники</commandGroups>
+  <commandGroups>CommandGroup.ГруппаКомандРегистры</commandGroups>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Продукты</catalogs>
   <catalogs>Catalog.Товары</catalogs>

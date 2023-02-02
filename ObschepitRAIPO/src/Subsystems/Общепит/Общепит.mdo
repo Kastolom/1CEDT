@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="004d3d93-372a-4af7-bc06-a8566bb76da9">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="004d3d93-372a-4af7-bc06-a8566bb76da9">
   <name>Общепит</name>
   <synonym>
     <key>ru</key>
@@ -7,12 +7,14 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Общепит</picture>
+  </picture>
   <content>Catalog.Продукты</content>
   <content>Catalog.Подразделения</content>
   <content>Catalog.Товары</content>
   <content>Catalog.ГруппыИзделий</content>
   <content>Catalog.НаценочныеКатегории</content>
-  <content>Enum.ЕдиницыИзмерения</content>
   <content>Document.ВнесениеИзменениеЦен</content>
   <content>InformationRegister.ЦеныПродуктов</content>
   <content>Document.ФормированиеНарядЗаказа</content>
