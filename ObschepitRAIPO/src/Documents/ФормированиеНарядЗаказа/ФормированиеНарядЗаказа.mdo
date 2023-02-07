@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4e63065-9c45-4f85-b331-79e2555e497c">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4e63065-9c45-4f85-b331-79e2555e497c">
   <producedTypes>
     <objectType typeId="8392cd80-b6d5-4b4c-ae93-1cbab7e3a131" valueTypeId="bef946a6-3ff1-4811-9075-2266257ee50a"/>
     <refType typeId="ae112d8a-7573-499f-81c7-32c16bccc598" valueTypeId="505b32e8-564f-4a83-b7c6-cc95ba54443b"/>
@@ -31,6 +31,116 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ФормированиеНарядЗаказа.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="546db0b4-6e7a-4948-a1cb-cd6acf4ae848">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="972c3a11-e4a2-48d5-9d4b-afc276405d01">
+    <producedTypes>
+      <objectType typeId="62437cdb-db9f-41d6-9135-0aff6843ccaf" valueTypeId="e31845cc-707f-4059-b099-ae2e464ef46b"/>
+      <rowType typeId="c8575d50-7a9b-4bd2-bc27-005383c0114e" valueTypeId="ecf7bb26-2f7d-47bc-99c1-8183e18f776d"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="44588369-224a-4f15-a407-85453bc659a2">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49761a2a-38cc-430f-a6a1-b95d797f008f">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="59de5f56-785c-475a-b846-6c5f98a7052f">
+      <name>Выход</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выход</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1cbf645-3746-475c-9c49-8e04d77f6a17">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="87756aeb-0b3a-4f93-b7ce-dfa03902bf9f">
+    <name>Печать</name>
+  </templates>
+  <templates uuid="a1c9fca1-8979-47e0-8775-aea392be59c9">
+    <name>НарядЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наряд заказ</value>
+    </synonym>
+  </templates>
+  <commands uuid="df577592-a28e-493a-95a7-de13cb798679">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ФормированиеНарядЗаказа</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
