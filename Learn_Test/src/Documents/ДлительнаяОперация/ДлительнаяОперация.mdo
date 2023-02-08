@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="252529d8-9264-4881-a88d-a986bd30e289">
+  <producedTypes>
+    <objectType typeId="efe1195f-2af7-483a-b852-ce84676882e9" valueTypeId="11803728-c658-4123-bb2f-e1002938ec87"/>
+    <refType typeId="eea1b712-9574-4e14-985e-5c2e5964eb19" valueTypeId="c693002c-c1da-4958-9142-26d4101667af"/>
+    <selectionType typeId="07c437c5-0864-4541-8bbd-c2e981d2666c" valueTypeId="194e5ced-1359-4605-88fd-c95b65722c4d"/>
+    <listType typeId="19894521-a4a7-4e6b-a3a4-b00d0edb4eda" valueTypeId="6cc2269a-5a9d-4266-b3cf-d945520e75f9"/>
+    <managerType typeId="b62c97ee-8b1e-4605-ae5b-a5dff73e8835" valueTypeId="16f3b79b-c1db-48f8-a90a-e6a19b480d94"/>
+  </producedTypes>
+  <name>ДлительнаяОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительная операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДлительнаяОперация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Длительная операция</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Длительные операции</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДлительнаяОперация.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="6f2f2ac4-5f92-4013-91d4-f415f075f6be">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
