@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57fc3140-8d13-4d27-9817-d38c555bbc01">
-  <name>Оборудование</name>
-  <synonym>
-    <key>ru</key>
-    <value>Оборудование</value>
-  </synonym>
-  <availabilityForChoice>true</availabilityForChoice>
-</mdclass:CommonPicture>
