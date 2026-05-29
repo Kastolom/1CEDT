@@ -39,4 +39,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
 </mdclass:Configuration>
